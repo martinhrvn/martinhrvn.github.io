@@ -1,9 +1,5 @@
-import Link from 'next/link'
+import { AppProps } from "next/app";
 
-export default function Home() {
-  return (
-    <div>
-      Hello World. <Link href="/about">About</Link>
-    </div>
-  )
+export default function App() {
+  return <div>test</div>;
 }
